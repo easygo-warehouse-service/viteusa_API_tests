@@ -32,6 +32,7 @@ class Test(unittest.TestCase):
         if caseId=="3":
            param=GlobalVariables.response_data
 
+
         #logger.info(data)
         PM = Merhod().merhod(data["url"], data["method"], data["param"], headers, data["testname"],data["teststep"],data["caseID"])
         #logger.info(PM)
